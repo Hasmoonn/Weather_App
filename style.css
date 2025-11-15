@@ -9,7 +9,10 @@
 
 body{
   background: linear-gradient( rgb(0, 43, 44), rgb(0, 0, 0));
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card{
@@ -17,8 +20,6 @@ body{
   max-width: 470px;
   background: linear-gradient(135deg, #2c3e50, #00cec9);
   color: #fff;
-  margin: 0 auto;
-  margin-top: 60px;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
